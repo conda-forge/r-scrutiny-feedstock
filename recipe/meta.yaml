@@ -1,4 +1,4 @@
-{% set version = '0.6.1' %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/scrutiny_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/scrutiny/scrutiny_{{ version }}.tar.gz
-  sha256: 06a24e1ff4e06e5657a98a91a2dad94177e16b7cf72fa49b29853b52e75f1973
+  sha256: f8ef214fb70a0bf7e999532393681a53fcfad29e6c5ad276397f0d43556306a8
 
 build:
   number: 0
@@ -68,9 +68,7 @@ about:
   home: https://lhdjung.github.io/scrutiny/
   dev_url: https://github.com/lhdjung/scrutiny/
   license: MIT
-  summary: Test published summary statistics for consistency (Brown and Heathers, 2017, <doi:10.1177/1948550616673876>;
-    Allard, 2018, <https://aurelienallard.netlify.app/post/anaytic-grimmer-possibility-standard-deviations/>;
-    Heathers and Brown, 2019, <https://osf.io/5vb3u/>). The package also provides infrastructure
+  summary: Test published summary statistics for consistency (Brown and Heathers, 2017, <doi:10.1177/1948550616673876>; Allard, 2018, <https://aurelienallard.netlify.app/post/anaytic-grimmer-possibility-standard-deviations/>; Heathers and Brown, 2019, <https://osf.io/5vb3u/>). The package also provides infrastructure 
     for implementing new error detection techniques.
   license_family: MIT
   license_file:
